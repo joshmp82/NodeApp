@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("demo1/nodeapp")
+        app = docker.build("chetanconnect/nodeapp")
     }
 
     stage('Test image') {
